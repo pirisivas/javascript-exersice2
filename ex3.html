@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script type="text/javascript">
+      function assignGrade(marks){
+        if (marks>75) {
+          return "grade A";
+        }else if (marks>60) {
+          return "grade B";
+        }else if (marks>45) {
+          return "grade C";
+        }else
+        return "grade F";
+        }
+      document.getElementById("demo").innerHTML=assignGrade(100);
+    </script>
+  </body>
+</html>

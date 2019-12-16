@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script type="text/javascript">
+      function assignColor(Colour){
+        if (Colour<10) {
+          return "Blue";
+        }else if (Colour<20) {
+          return "Red";
+        }else if (Colour<30) {
+          return "Green";
+        }else
+        return "no colour";
+        }
+      document.getElementById("demo").innerHTML=assignColor(5);
+    </script>
+  </body>
+</html>
